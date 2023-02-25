@@ -1,0 +1,165 @@
+.topSection .headerSection {
+  justify-content: space-between;
+}
+.topSection .headerSection .title p {
+  font-size: 20px;
+  font-weight: 700;
+}
+.topSection .headerSection .searchBar {
+  padding: 1rem 2rem;
+  background: white;
+  border-radius: 10px;
+  gap: 1rem;
+  box-shadow: 0 2px 4px white;
+}
+.topSection .headerSection .searchBar input {
+  border: none;
+  outline: none;
+  background: none;
+}
+.topSection .headerSection .searchBar .icon {
+  color: grey;
+}
+.topSection .headerSection .searchBar .icon:hover {
+  color: black;
+}
+.topSection .headerSection .adminDiv {
+  gap: 30px;
+}
+.topSection .headerSection .adminDiv .icon {
+  font-size: 15px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px white;
+  color: black;
+  margin-right: 3px;
+}
+.topSection .headerSection .adminDiv .smallText {
+  font-size: 15px;
+}
+.topSection .cardSection {
+  margin-top: 4rem;
+  gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.topSection .cardSection .usercard {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  background: white;
+  box-shadow: 3px 3px 8px gray;
+}
+.topSection .cardSection .usercard h1 {
+  font-size: 24px;
+}
+.topSection .cardSection .usercard p, .topSection .cardSection .usercard .btn {
+  font-size: 15px;
+}
+.topSection .cardSection .usercard .buttons {
+  gap: 2rem;
+  position: relative;
+  left: -18px;
+  bottom: -30px;
+}
+.topSection .cardSection .usercard .buttons .btn {
+  box-shadow: none;
+  font-size: 13px;
+  padding: 0.8rem 1.5rem;
+  color: black;
+  background: none;
+}
+.topSection .cardSection .employeeCard {
+  flex-basis: 50%;
+}
+.topSection .cardSection .employeeCard .main {
+  position: relative;
+  padding: 1rem;
+  height: 200px;
+  border-radius: 1rem;
+  justify-content: flex-start;
+  background: white;
+  box-shadow: 3px 3px 8px gray;
+}
+.topSection .cardSection .employeeCard .main::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 75%;
+  right: 100px;
+  bottom: 0;
+  border-radius: 1rem;
+}
+.topSection .cardSection .employeeCard .main .textDiv {
+  z-index: 100;
+}
+.topSection .cardSection .employeeCard .main .textDiv h1 {
+  font-size: 24px;
+}
+.topSection .cardSection .employeeCard .main .buttons {
+  gap: 2rem;
+  position: relative;
+  left: -5px;
+  bottom: -25px;
+}
+.topSection .cardSection .employeeCard .main .buttons .btn {
+  box-shadow: none;
+  font-size: 13px;
+  padding: 0.8rem 1.5rem;
+  color: black;
+  background: none;
+}
+.topSection .cardSection .organisationCard {
+  width: 450px;
+}
+.topSection .cardSection .organisationCard .main {
+  padding: 1rem;
+  height: 200px;
+  border-radius: 1rem;
+  justify-content: flex-start;
+  background: white;
+  box-shadow: 3px 3px 8px gray;
+}
+.topSection .cardSection .organisationCard .main .buttons {
+  gap: 2rem;
+  position: relative;
+  left: -5px;
+  bottom: -25px;
+}
+.topSection .cardSection .organisationCard .main .buttons .btn {
+  box-shadow: none;
+  font-size: 13px;
+  padding: 0.8rem 1.5rem;
+  color: black;
+  background: none;
+}
+.topSection .cardSection .roleCard {
+  width: 100%;
+}
+.topSection .cardSection .roleCard .main {
+  padding: 1rem;
+  height: 200px;
+  border-radius: 1rem;
+  justify-content: flex-start;
+  background: white;
+  box-shadow: 3px 3px 8px gray;
+}
+.topSection .cardSection .roleCard .main .buttons {
+  gap: 2rem;
+  position: relative;
+  left: -5px;
+  bottom: -25px;
+}
+.topSection .cardSection .roleCard .main .buttons .btn {
+  box-shadow: none;
+  font-size: 13px;
+  padding: 0.8rem 1.5rem;
+  color: black;
+  background: none;
+}/*# sourceMappingURL=top.css.map */
